@@ -14,7 +14,8 @@ body {
    align-items: center;
    min-height: 100vh;
    /* background-color: #C37D90; */
-   background-color: #dc354687;
+   background-color: #f7cad0;
+   /* #dc354687; */
 }
 
 .sign {
@@ -23,6 +24,7 @@ body {
     color: black;
     padding: 30px 40px;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .sign h1 {
@@ -53,7 +55,8 @@ button {
     height: 45px;
     border: none;
     outline: none;
-    background:#DC3545;
+    background: #ff0a54;
+    /* #DC3545; */
     border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
@@ -62,7 +65,7 @@ button {
     font-size: 15px;
 }
 button:hover {
-    background-color: #bb2d3b;
+    background-color: #ce0944;
 }
 .signup {
     text-align: center;

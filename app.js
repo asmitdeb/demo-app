@@ -5,7 +5,7 @@ const axios = require('axios');
 
 const app = express();
 const port = 3000;
-const api_key = "6a7dd33727124df5b48a846b35796aac";
+const api_key = "c5d4fbc4123040d59da4243c9c4ace4f";
 
 app.use(express.json());
 
@@ -121,6 +121,11 @@ app.get("/recipe/:id", async(req,res )=> {
     const recipe = response.data;
     res.render('recipe.ejs', {recipe})
 })
+
+//home
+app.get("/home", (req, res) => {
+    res.render('index.ejs');
+});
 
 app.listen(port, () => {
     console.log('Server running on port: ${port}');
